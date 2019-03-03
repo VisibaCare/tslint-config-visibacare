@@ -1,18 +1,27 @@
 {
-	"name": "tslint-config-visibacare",
-	"version": "0.0.0",
-	"main": "index.js",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/VisibaCare/tslint-config-visibacare"
-	},
-	"dependencies": {
-		"tslint-config-airbnb": "^5.11.1",
-		"tslint-consistent-codestyle": "^1.15.0",
-		"tslint-eslint-rules": "^5.4.0"
-	},
-	"devDependencies": {
-		"tslint": "^5.13.1"
-	}
+  "name": "tslint-config-visibacare",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisibaCare/tslint-config-visibacare.git"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-eslint-rules": "^5.4.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.13.1"
+  },
+  "description": ">_This is for code going into 2019_",
+  "bugs": {
+    "url": "https://github.com/VisibaCare/tslint-config-visibacare/issues"
+  },
+  "homepage": "https://github.com/VisibaCare/tslint-config-visibacare#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Visiba Group AB"
 }
