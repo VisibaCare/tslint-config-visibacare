@@ -45,7 +45,7 @@ We're using primarily [TypeScript](https://www.typescriptlang.org/) but doing sm
   * Do group properties & variables with a line separation.
     > Why? If it makes sense for them to be grouped, then it'll do no harm and will most likely help with readability.
   * Do initialize variables and properties that is meant to hold a value with `null`.
-    > Why? It helps to unify the code with nullable API responses. A value that's set to null is purposefully set to "no value" - it helps eliminate.
+    > Why? It helps to unify the code with nullable API responses. A value that's set to null is purposefully set to "no value".
   * Break stuff into modules.
     > Once a something become too large or is complex enough that it is interfering with understanding the rest of the file, make a module out of it. It will easier to maintain, test and - if wrote well - reuse.
   * TypeScrpt
