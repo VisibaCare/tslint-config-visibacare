@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-visibacare",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "tslint-config-airbnb": "^5.11.1",
-    "tslint-consistent-codestyle": "^1.15.0",
-    "tslint-eslint-rules": "^5.4.0"
+    "tslint-consistent-codestyle": "^1.15.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^6.1.0"
   },
   "devDependencies": {
-    "tslint": "^5.13.1"
+    "tslint": "^5.14.0"
   },
-  "description": ">_This is for code going into 2019_",
+  "description": "VisibaCare's style guide",
   "bugs": {
     "url": "https://github.com/VisibaCare/tslint-config-visibacare/issues"
   },
