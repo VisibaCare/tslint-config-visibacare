@@ -34,11 +34,6 @@ module.exports = {
       },
     ],
     'no-parameter-reassignment': true, // 7.12
-    align: [
-      true,
-      'arguments',
-      'parameters',
-    ], // 7.15
     'ter-prefer-arrow-callback': [true], // 8.1
     'arrow-parens': false, // 8.2
     'ter-arrow-parens': [
