@@ -71,7 +71,6 @@ module.exports = {
     'space-in-parens': [true, 'never'], // 19.9
     'array-bracket-spacing': [true, 'never'], // 19.10
     'object-curly-spacing': [true, 'always'], // 19.11
-    'max-line-length': [true, 100], // 19.12
     'block-spacing': true, // 19.13
     'ter-computed-property-spacing': true, // 19.15
     'ter-func-call-spacing': true, // 19.16
@@ -102,6 +101,7 @@ module.exports = {
 		'no-this-assignment': [true, 'allow-destructuring'], // 23.5
 
 		// Visiba Care's own rules.
+		'max-line-length': [true, 135],
 		'no-switch-case-fall-through': true,
 		'no-collapsible-if': true,
 		'no-unnecessary-else': true,
