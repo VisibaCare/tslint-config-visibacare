@@ -15,7 +15,6 @@ module.exports = {
     'object-literal-shorthand': true, // 3.3, 3.4
     'object-shorthand-properties-first': true, // 3.5
     'object-literal-key-quotes': [true, 'as-needed'], // 3.6
-    'prefer-array-literal': true, // 4.1
     quotemark: [
       true,
       'single',
@@ -43,7 +42,6 @@ module.exports = {
     ], // 8.4
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
-    'no-increment-decrement': true, // 13.6
     'triple-equals': [true, 'allow-null-check'], // 15.1
     'no-boolean-literal-compare': true, // 15.3
     curly: [true, 'ignore-same-line'], // 16.1
@@ -85,7 +83,6 @@ module.exports = {
     'function-name': [
       true,
       {
-        'function-regex': /^[a-z$][\w\d]+$/,
         'method-regex': /^[a-z$][\w\d]+$/,
         'private-method-regex': /^[a-z$][\w\d]+$/,
         'protected-method-regex': /^[a-z$][\w\d]+$/,
