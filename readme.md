@@ -16,10 +16,10 @@ We're using primarily [TypeScript](https://www.typescriptlang.org/) but doing sm
   1. [Basic rules](#Basic-rules)
   2. [Performance](#Performance)
   3. [Transpile](#Transpile)
-  4. [Declaration & Naming Convention](#Declaration-&-Naming-Convention)
-  5. [Object & Arrays](#Object-&-Arrays)
+  4. [Declaration & Naming Convention](#Declaration--Naming-Convention)
+  5. [Object & Arrays](#Object--Arrays)
   6. [Destructuring](#Destructuring)
-  7. [Blocks, Comparison Operators & Equality](#Blocks,-Comparison-Operators-&-Equality)
+  7. [Blocks, Comparison Operators & Equality](#Blocks,-Comparison-Operators--Equality)
   8. [Module](#Module)
 
 ## Basic rules
@@ -85,6 +85,8 @@ _To be researched_
     * on`Function`
     * handle`Function`
     > Why? Enforces consistency.
+	### *~ _Exeptions_*:
+	When it comes to standard abbreviations, conventional stuff that's seen often, do use them. These are stuff like: `init`, `i in a loop` etc.
 
 * **Files:** When naming a file.
   * A filename should exactly match the name of its default export.
@@ -132,7 +134,7 @@ _To be researched_
   * Use arrow functions in callbacks.
     > Why? Less side effects. It will result in cleaner code and `this` will be lexically binded.
   * Do use named function expression.
-    > Why? 
+    > Why? Names can be seen in stack traces, call stacks and lists of breakpoints.
   * Don't declare a function in a non-block (`if`, `for`, `while`, etc).
     > Why? Browsers will all interpret it differently, aka not nice.
   * Don't use underscore to conventionally ignore parameters. 
