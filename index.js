@@ -2,11 +2,13 @@ const path = require('path');
 
 module.exports = {
 	rulesDirectory: [
+		path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
 		path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
 		path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
 		path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
 	],
 	rules: {
+		'prettier': true,
 		// Airbnb JavaScript Style Guide rules
 		// These are taken from: https://github.com/progre/tslint-config-airbnb
 		// because some rules did not get overridden when this config got extended.
@@ -38,7 +40,6 @@ module.exports = {
     'ter-arrow-parens': [
       true,
       'as-needed',
-      { 'requireForBlockBody': true },
     ], // 8.4
     'no-duplicate-imports': true, // 10.4
     'one-variable-per-declaration': [true, 'ignore-for-loop'], // 13.2
