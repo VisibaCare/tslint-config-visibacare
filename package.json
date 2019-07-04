@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-visibacare",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/VisibaCare/tslint-config-visibacare.git"
   },
   "dependencies": {
+    "prettier": "^1.18.2",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-consistent-codestyle": "^1.15.1",
     "tslint-eslint-rules": "^5.4.0",
